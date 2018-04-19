@@ -2,8 +2,9 @@
 This repo contains methods for automating the download of multiple locations of [Daymet Single Pixel data](https://daymet.ornl.gov/single-pixel/) at once. Daymet web-service documentation can be found [here](https://daymet.ornl.gov/web_services.html#single_pixel_data_extraction).
 
 ### Methods
-1. [Java](https://github.com/kvgarimella/daymet-single-pixel-batch/tree/master/java)
-2. [Python](https://github.com/kvgarimella/daymet-single-pixel-batch/tree/master/python)
+1. [Bash](https://github.com/ornldaac/daymet-single-pixel-batch/tree/master/bash)
+2. [Java](https://github.com/ornldaac/daymet-single-pixel-batch/tree/master/java)
+3. [Python](https://github.com/ornldaac/daymet-single-pixel-batch/tree/master/python)
 
 
 ## Sample Text Files

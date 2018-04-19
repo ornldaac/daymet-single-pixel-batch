@@ -37,6 +37,6 @@ Finished downloading 5 files.
 
 $ ls
 11920_lat42.1_lon-101.0_2018-09-04_045627.csv	12643_lat50.0_lon-95.0_2018-09-04_045627.csv	latlon.txt
-12102_lat45.3_lon-97.0_2018-09-04_045627.csv	daymet_multiple_extraction.jar
-12282_lat46.3_lon-97.0_2018-09-04_045627.csv	file1.csv
+12102_lat45.3_lon-97.0_2018-09-04_045627.csv	daymet_multiple_extraction.py
+12282_lat46.3_lon-97.0_2018-09-04_045627.csv	file1.csv  README.md
 ```
