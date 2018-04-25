@@ -38,7 +38,7 @@ public class Daymet {
 
 			try {
 				// get connection and input stream
-				str.append("https://daymet.ornl.gov/single-pixel/send/send/saveData?lat=");
+				str.append("https://daymet.ornl.gov/spt/api/v1/data?lat=");
 				str.append(lats.get(i));
 				str.append("&lon=");
 				str.append(lons.get(i));

@@ -62,11 +62,11 @@ else
 fi
 
 for key in "${!lats[@]}"; do
-  echo Processing https://daymet.ornl.gov/single-pixel/send/saveData?lat=${lats[$key]}\&lon=${lons[$key]}\&measuredParams=$vars\&year=$years
+  echo Processing https://daymet.ornl.gov/spt/api/v1/data?lat=${lats[$key]}\&lon=${lons[$key]}\&measuredParams=$vars\&year=$years
   if [ ! ${inFs[$key]} == NULL ]; then
-    download https://daymet.ornl.gov/single-pixel/send/saveData?lat=${lats[$key]}\&lon=${lons[$key]}\&measuredParams=$vars\&year=$years ${inFs[$key]}
+    download https://daymet.ornl.gov/spt/api/v1/data?lat=${lats[$key]}\&lon=${lons[$key]}\&measuredParams=$vars\&year=$years ${inFs[$key]}
   else
-    downloadwName https://daymet.ornl.gov/single-pixel/send/saveData?lat=${lats[$key]}\&lon=${lons[$key]}\&measuredParams=$vars\&year=$years
+    downloadwName https://daymet.ornl.gov/spt/api/v1/data?lat=${lats[$key]}\&lon=${lons[$key]}\&measuredParams=$vars\&year=$years
   fi
 done
 echo ""

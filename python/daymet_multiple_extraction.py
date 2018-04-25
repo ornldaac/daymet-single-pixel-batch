@@ -16,7 +16,7 @@ YEAR_LINE = "years:"
 VAR_LINE  = "variables:"
 DAYMET_VARIABLES = ['dayl', 'prcp', 'srad', 'swe', 'tmax', 'tmin', 'vp']
 DAYMET_YEARS     = [str(year) for year in range(STARTYEAR, ENDYEAR + 1)]
-DAYMET_URL_STR = r'https://daymet.ornl.gov/single-pixel/send/send/saveData?lat={}&lon={}'
+DAYMET_URL_STR = r'https://daymet.ornl.gov/spt/api/v1/data?lat={}&lon={}'
 
 def parse_params(line, param_list):
     start_idx = line.index(":") + 1
