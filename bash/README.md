@@ -27,11 +27,11 @@ file1.csv, 45.0,   -97.0
 50,-95
 
 $ ./daymet_spt_batch.sh latlon.txt
-Processing: https://daymet.ornl.gov/single-pixel/send/send/saveData?lat=45.0&lon=-97.0&measuredParams=tmin,tmax,prcp&year=2012,2013,2014
-Processing: https://daymet.ornl.gov/single-pixel/send/send/saveData?lat=45.3&lon=-97.0&measuredParams=tmin,tmax,prcp&year=2012,2013,2014
-Processing: https://daymet.ornl.gov/single-pixel/send/send/saveData?lat=46.3&lon=-97.0&measuredParams=tmin,tmax,prcp&year=2012,2013,2014
-Processing: https://daymet.ornl.gov/single-pixel/send/send/saveData?lat=42.1&lon=-101.0&measuredParams=tmin,tmax,prcp&year=2012,2013,2014
-Processing: https://daymet.ornl.gov/single-pixel/send/send/saveData?lat=50.0&lon=-95.0&measuredParams=tmin,tmax,prcp&year=2012,2013,2014
+Processing: https://daymet.ornl.gov/single-pixel/api/data?lat=45.0&lon=-97.0&measuredParams=tmin,tmax,prcp&year=2012,2013,2014
+Processing: https://daymet.ornl.gov/single-pixel/api/data?lat=45.3&lon=-97.0&measuredParams=tmin,tmax,prcp&year=2012,2013,2014
+Processing: https://daymet.ornl.gov/single-pixel/api/data?lat=46.3&lon=-97.0&measuredParams=tmin,tmax,prcp&year=2012,2013,2014
+Processing: https://daymet.ornl.gov/single-pixel/api/data?lat=42.1&lon=-101.0&measuredParams=tmin,tmax,prcp&year=2012,2013,2014
+Processing: https://daymet.ornl.gov/single-pixel/api/data?lat=50.0&lon=-95.0&measuredParams=tmin,tmax,prcp&year=2012,2013,2014
 
 $ ls
 11920_lat42.1_lon-101.0_2018-09-04_045627.csv	12643_lat50.0_lon-95.0_2018-09-04_045627.csv	latlon.txt
