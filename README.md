@@ -1,5 +1,5 @@
 # Batch Download of Daymet Single Pixel Data
-This repo contains methods for automating the download of multiple locations of [Daymet Single Pixel data](https://daymet.ornl.gov/single-pixel/) at once. Daymet web-service documentation can be found [here](https://daymet.ornl.gov/web_services.html#single_pixel_data_extraction).
+This repo contains methods for automating the download of multiple locations of Daymet data from the [Single Pixel Extraction Tool](https://daymet.ornl.gov/single-pixel/) at once. More documentation is available under Daymet [Scripts to Automate Single Pixel Data Extraction](https://daymet.ornl.gov/web_services.html#single_pixel_data_extraction).
 
 ### Methods
 1. [Bash](https://github.com/ornldaac/daymet-single-pixel-batch/tree/master/bash)
