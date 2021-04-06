@@ -10,7 +10,7 @@ if (len(sys.argv) < 2):
     sys.exit()
 
 STARTYEAR = 1980
-ENDYEAR   = 2019
+ENDYEAR   = 2020
 NO_NAME = "NULL"
 YEAR_LINE = "years:"
 VAR_LINE  = "variables:"
