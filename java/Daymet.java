@@ -15,7 +15,7 @@ import java.net.MalformedURLException;
 
 public class Daymet {
 	static int startYear = 1980;
-	static int endYear = 2019;
+	static int endYear = 2020;
 	static int[] range = IntStream.rangeClosed(startYear, endYear).toArray();
 	static String[] allowedVariables = {"dayl", "prcp", "srad", "swe", "tmax", "tmin", "vp"};
 
