@@ -4,7 +4,7 @@ years="1980,1981,1982,1983,1984,1985,1986,1987,1988,1989"
 years+=",1990,1991,1992,1993,1994,1995,1996,1997,1998,1999"
 years+=",2000,2001,2002,2003,2004,2005,2006,2007,2008,2009"
 years+=',2010,2011,2012,2013,2014,2015,2016,2017,2018,2019'
-years+=',2020'
+years+=',2020,2021,2022'
 vars="dayl,prcp,srad,swe,tmax,tmin,vp"
 # read in first command line argument (should be latlon.txt)
 inF=$1
@@ -55,7 +55,7 @@ if [ -x "$(command -v curl)" ]; then
 else
   if [ -x "$(command -v wget)" ]; then
     downloadwName() { wget --content-disposition -q $1; }
-    download() { wget -q $1 -o $2; }
+    download() { wget -q $1 -O $2; }
   else
     echo "Error: You must have either curl or wget installed to run this program."
     exit 1
