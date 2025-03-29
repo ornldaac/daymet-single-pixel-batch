@@ -71,3 +71,6 @@ file2.csv, 46.3, -97.0
 
 ### Daymet Years:
 1980 - the most recent published year
+
+### Single Pixel Extraction Tool Citation:
+Thornton, M.M., and R. Devarakonda. 2011. Daymet Single Pixel Extraction Tool. ORNL DAAC, Oak Ridge, Tennessee, USA. [https://doi.org/10.3334/ORNLDAAC/2361](https://doi.org/10.3334/ORNLDAAC/2361)
